@@ -1,0 +1,73 @@
+header {
+  width: 100%;
+  background-color: #CCCCFF;
+  height: 54px;
+}
+
+header ul {
+  margin: 0 auto;
+  list-style: none;
+}
+
+header ul a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: white;
+}
+
+header li {
+  float: left;
+  width: auto;
+}
+
+header ul:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.main-header {
+  padding-bottom: 15%;
+  width: 100%;
+  background-size: cover;
+  background-color: white;
+  background-attachment: fixed;
+}
+
+.main-header img {
+  display: block;
+  margin: 0 auto;
+  width: 25%;
+  padding-top: 15%;
+}
+
+.twitter {
+  background-color: #FFEEFF;
+  color: #333;
+  padding: 80px;
+}
+
+footer {
+  width: 100%;
+  background-color:#00FFFF;
+  padding: 20px 0 10px 0;
+  color: #000000;
+  margin: auto;
+  font-size: 12px;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  text-align: center;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tweeter</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  
+<header>
+ <ul>
+  <li><%= link_to "HOME", root_path %></li>
+  <li><%= link_to "ツイート一覧", tweets_path %></li>
+  <li><%= link_to "つぶやく", new_tweet_path %></li>
+ </ul>
+</header>
+
+<%= yield %>
+
+<footer>
+ <p>運営会社taikiii株式会社</p>
+</footer>
+
+</body>
+</html>
